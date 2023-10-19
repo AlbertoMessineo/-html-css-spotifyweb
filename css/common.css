@@ -9,6 +9,9 @@ body{
     /* debug */
     height: 100vh;
 }
+a{
+    text-decoration: none;
+}
 .main{
     height: 100%;
 }

@@ -16,6 +16,7 @@
     flex-shrink: 0;
     padding: 10px;
 }
+/* MENU */
 .logo{
     padding: 0 10px;
 }
@@ -42,6 +43,8 @@
 .menu-span{
     display: none;
 }
+
+/* PROFILE */
 .profile{
     margin-top: auto;
    
@@ -52,7 +55,7 @@
 .profile-list> hr{
     display: none;
     color: grey;
-    width: 180px;
+    width: 80%;
     margin: auto;
     
 }
@@ -77,6 +80,7 @@
     display: flex;
     justify-content: flex-end;
     width: 90%;
+    height: 90px;
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
 }
@@ -86,6 +90,19 @@
     color: white;
     border: 1px solid white;
     background-color: transparent;
+}
+/* TOP MENU */
+.top-menu{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 90px;
+}
+.top-menu > a{
+    padding: 10px;
+    color: #7d7f84;
 }
 
 
@@ -127,6 +144,10 @@
     
 }
 @media screen and (min-width:992px) {
+    .top-menu{
+        margin: 90px auto 0 auto;
+    }
+
     
 }
 @media screen and (min-width:1200px) {

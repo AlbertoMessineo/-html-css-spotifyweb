@@ -6,3 +6,10 @@ body{
 button{
     border-radius: 50px;
 }
+.top-list{
+    font-weight:bolder ;
+}
+h2{
+    color: aliceblue;
+    padding: 10px 2vw ;
+}
