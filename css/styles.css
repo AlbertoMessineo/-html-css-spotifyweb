@@ -21,6 +21,7 @@
 }
 .logo #logo-small {
     display: block;
+    margin-bottom: 5px;
     width: 30px;
     height: 30px;
     
@@ -29,10 +30,39 @@
 .logo #logo{
     display: none;
 }
+#menu-icons{
+    width: 30px;
+    height: 30px;
+}
 
+.menu-list > li{
+    width: 30px;
+    margin: 10px auto;
+}
+.menu-span{
+    display: none;
+}
 .profile{
     margin-top: auto;
-    background-color: aqua;
+   
+}
+.profile-list>li{
+    text-align: center;
+}
+.profile-list> hr{
+    display: none;
+    color: grey;
+    width: 180px;
+    margin: auto;
+    
+}
+.fa-circle-down{
+    font-size: 18px;
+    margin: 5px auto;
+}
+.fa-circle-user{
+    font-size: 23px;
+    margin: 5px auto;
 }
 .playlist{
     display: none;
@@ -78,13 +108,16 @@
         display: block;
         width: 132px;
     }
-   
+    .menu-span{
+        display: inline-block;
+    }
 
     .playlist{
         display: flex;
     }
-
-
+    .profile-list> hr{
+        display: block;
+    }
     .upgrade{
         width: calc(100% - 230px);
     }

@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <title>Spotify</title>
 </head>
@@ -22,12 +24,30 @@
                 <img src="img/logo-small.svg" alt="Spotify" id="logo-small">
                 <img src="img/logo.svg" alt="Spotify" id="logo">
             </div>
-            <div class="menu">menu</div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li>
+                        <a href="#"><img src="img/home.svg" alt="home" id="menu-icons">
+                            <span class="menu-span">home</span>
+                        </a>
+                    </li>
+                    <li> 
+                        <a href="#"><img src="img/search.svg" alt="search" id="menu-icons">
+                            <span class="menu-span">Cerca</span>
+                        </a>
+                    </li>
+                    <li> 
+                        <a href="#"><img src="img/libreria.svg" alt="libreria" id="menu-icons">
+                            <span class="menu-span">La tua libreria</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
             <div class="playlist">
                 <div class="header">header</div>
                 <div class="list">
                     <ul class="list">
-                        <li>Playlist</li>
+                        <li >Playlist</li>
                         <li>Playlist</li>
                         <li>Playlist</li>
                         <li>Playlist</li>
@@ -40,7 +60,17 @@
                     </ul>
                 </div>
             </div>        
-            <div class="profile">profile</div>                                     
+            <div class="profile">
+                <ul class="profile-list">
+                    <li>
+                        <i class="fa-regular fa-circle-down"></i>
+                    </li>
+                    <li><hr></li>
+                    <li>
+                        <i class="fa-regular fa-circle-user"></i>
+                    </li>
+                </ul>
+            </div>                                     
         </nav> 
         <main>
             <div class="upgrade">

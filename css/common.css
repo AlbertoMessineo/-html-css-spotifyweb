@@ -12,6 +12,12 @@ body{
 .main{
     height: 100%;
 }
+button{
+    border-radius: 50px;
+}
+li{
+    list-style: none;
+}
 .macro-top{
     height: calc(100% - 90px);
 
