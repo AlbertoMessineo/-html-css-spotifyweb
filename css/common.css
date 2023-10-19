@@ -7,7 +7,18 @@
 body{
     background-color: #141922;
     /* debug */
+    height: 100vh;
+}
+.main{
     height: 100%;
-    width: 100%;
+}
+.macro-top{
+    height: calc(100% - 90px);
+
+}
+.macro-bot{
+    height: 90px;
+    background-color: #282828;
+    
 }
 /* HEADER */
