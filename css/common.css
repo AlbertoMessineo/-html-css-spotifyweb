@@ -14,7 +14,7 @@ a{
 }
 .main{
     height: 100%;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 button{
     border-radius: 50px;
