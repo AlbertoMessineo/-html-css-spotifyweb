@@ -12,9 +12,9 @@ body{
 a{
     text-decoration: none;
 }
-.main{
+main{
     height: 100%;
-    overflow-y: hidden;
+    overflow-y: scroll;
 }
 button{
     border-radius: 50px;
