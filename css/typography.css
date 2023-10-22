@@ -12,6 +12,17 @@ button{
 h2{
     color: aliceblue;
     padding: 10px 2vw ;
+    margin-top: 15px;
+}
+/* MAIN BOXES TEXT */
+.song-title{
+    color: aliceblue;
+    margin: 10px auto;
+    font-size: 18px;
+}
+h6{
+    color: #717171;
+    margin: 8px auto;
 }
 .main-sub{
     color: #717171;
@@ -21,4 +32,22 @@ h2{
 .fa-regular{
     color: #717171;
     font-size: 16px;
+}
+
+
+h5{
+    font-size: 0.8rem;
+    color: aliceblue;
+}
+.current-titles > p{
+    font-size: 0.7rem;
+    color: #717171;
+
+}
+/* PLAYLIST */
+
+.crea{
+    font-size: 16px;
+    color: #717171;
+    align-self: center;
 }
